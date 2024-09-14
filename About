@@ -1,1 +1,3 @@
 Hackathon to build language translator LLM
+SLM used - T5 small
+Dataset  - hindi_english_parallel.csv
