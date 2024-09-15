@@ -1,3 +1,9 @@
-Hackathon to build language translator LLM
-SLM used - T5 small
-Dataset  - hindi_english_parallel.csv
+Hackathon to fine tune english to hindi language translator SLM
+--------------------------------------------------------------------------
+SLM used - https://huggingface.co/Helsinki-NLP/opus-mt-en-hi
+Dataset  - https://huggingface.co/datasets/cfilt/iitb-english-hindi
+training Arguments -
+  batch_size = 16
+  learning_rate = 2e-5
+  weight_decay = 0.01
+  num_train_epochs = 1
